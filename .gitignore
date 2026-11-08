@@ -1,0 +1,10 @@
+# Keep credentials and private runtime files out of the public demo
+.env
+.env.*
+*.pem
+*.key
+secrets/
+credentials*.json
+node_modules/
+*.log
+.DS_Store
